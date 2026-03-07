@@ -1,0 +1,9 @@
+name: First Workflow New
+run-name: First Runner
+on: workflow_dispatch
+jobs:
+   Greet-User:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Print Greeting
+          run: echo "Hello World"
